@@ -94,7 +94,7 @@ async function fetchCoffeeShopsFromAPI(location: string, existingIds: Set<string
       `https://api.valueserp.com/search`,
       {
         params: {
-          api_key: "5C3FD44146204B86AED94576A4E40E6F",
+          api_key: "F",
           q: `best coffee shops in ${location}, London`,
           location: `${location}, London, UK`,
           search_type: 'places',
